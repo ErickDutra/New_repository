@@ -1,10 +1,10 @@
 const controls = document.querySelectorAll(".control");
 let currentItem = 0;
-const items = document.querySelectorAll(".items");
+const items = document.querySelectorAll(".item-carrosel");
 const maxItems = items.length;
 
 controls.forEach((control) => {
-  control.addEventListener("click", (e) => {
+  control.addEventListener('click', (e) => {
     isLeft = e.target.classList.contains("arrow-left");
 
     if (isLeft) {

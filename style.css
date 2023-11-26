@@ -72,7 +72,7 @@ li.name-box{
 .projects-box{
     position: relative;
     padding: 15px;
-    max-width: 600px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -118,7 +118,7 @@ li.name-box{
     opacity: 1;
 }
 
-.items{
+.item-carrosel{
     width: 250px;
     height: 250px;
     flex-shrink: 0;
