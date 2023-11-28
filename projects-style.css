@@ -1,0 +1,38 @@
+
+.projects-box{
+    position: relative;
+    padding: 15px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.projects-wrapper{
+    overflow-x: auto;
+}
+
+.projects{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.table-projects{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(44,44,44);
+    max-width: 80%;
+    border-radius: 5px;
+    margin: 30px;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+}
+
+.table-projects h2{
+    font-size: 50px;
+    margin: 50px;
+    animation: float 3s ease infinite;
+    color: green;
+    text-shadow: 0px 5px 10px black;
+    font-family: matrix;
+}

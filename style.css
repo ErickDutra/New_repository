@@ -1,8 +1,14 @@
+@font-face {
+    font-family: matrix;
+    src: url('/New_repository/fonts/Antimatrix-BWBVw.ttf');
+  }
+
+
 *{
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 body{
     background-color: rgb(66, 66, 66);
@@ -17,7 +23,13 @@ header{
     
 }
 
+div img{
+    width: 300px;
+}
+
+
 .title-name{
+    font-family: matrix;
     font-size: 50px;
     animation: float 3s ease infinite;
 }
@@ -26,7 +38,6 @@ header{
     position: center;
     color: green;
     text-shadow: 0px 5px 10px black;
-    
 }
 
 @keyframes float{
@@ -38,6 +49,11 @@ header{
     }
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .information{
     background-color: rgba(0, 0, 0, 0.336);
@@ -46,6 +62,8 @@ header{
     margin: 5%;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
+    max-width: 80%;
+    padding: 10px;
 }
 
 .itens{
@@ -57,85 +75,13 @@ header{
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
-    
 }
 
-li.photo{
+.photo{
     width: 250px;
     background-color: transparent;
 }
 
-li.name-box{
+.info-box{
     font-size: 40px;
-}
-
-.projects-box{
-    position: relative;
-    padding: 15px;
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.projects-wrapper{
-    overflow-x: auto;
-}
-
-.projects{
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 15px;
-}
-
-.arrow-left,
-.arrow-right{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: auto;
-    bottom: 0;
-    font-size: 20px;
-    line-height: 250px;
-    width: 40px;
-    text-align: center;
-    cursor: pointer;
-    border: none;
-    background: linear-gradient(to left, transparent 0%, black 200%);
-    opacity: 0.1;
-    transition: all 600ms ease-in-out;
-}
-
-.arrow-right{
-    left: auto;
-    right: 0;
-    background: linear-gradient(to right, transparent 0%, black 200%);
-}
-
-.arrow-left:hover{
-    opacity: 1;
-}
-
-.arrow-right:hover{
-    opacity: 1;
-}
-
-.item-carrosel{
-    width: 250px;
-    height: 250px;
-    flex-shrink: 0;
-    opacity: 0.6;
-    transition: all 600ms ease-in-out;
-}
-
-.current-item{
-    opacity: 1;
-}
-
-
-.projects-wrapper::-webkit-scrollbar{
-    display: none;
-}
-
-.projects-wrapper{
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 }
