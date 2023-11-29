@@ -1,0 +1,27 @@
+.skills ul{
+    display: flex;
+    flex-direction: row;
+}
+.skills li{
+    padding: 10px;
+
+}
+.skills img{
+    width: 96px;
+}
+
+.alternado-1{
+    animation: float 3s ease infinite;
+}
+.alternado-2{
+    animation: float1 3s ease infinite;
+}
+
+@keyframes float1{
+    0%, 100% {
+        transform: translate(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+}
