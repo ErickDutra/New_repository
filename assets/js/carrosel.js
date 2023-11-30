@@ -9,7 +9,8 @@ controls.forEach((control) => {
 
     if (isLeft) {
       currentItem -= 1;
-    } else {
+    }
+    else {
       currentItem += 1;
     }
 

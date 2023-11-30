@@ -15,6 +15,7 @@
     opacity: 0.1;
     transition: all 600ms ease-in-out;
     border-radius: 5px;
+    display: block;
 }
 
 .arrow-right{
@@ -32,12 +33,11 @@
 }
 
 .item-carrosel{
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 290px;
     flex-shrink: 0;
     opacity: 0.6;
     transition: all 600ms ease-in-out;
-    
 }
 
 .current-item{
@@ -53,3 +53,33 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+.projects-box button img {
+    max-width: 50px;
+}
+
+.projects img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.projects li{
+    width: 250px;
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.projects a{
+    padding: 10px;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+    font-family: matrix;
+}
+
