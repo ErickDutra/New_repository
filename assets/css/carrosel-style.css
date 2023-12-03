@@ -74,8 +74,9 @@
 }
 
 .projects a{
-    padding: 10px;
-    background-color: black;
+    margin-top: 2px;
+    padding: 7px;
+    background-color: whitesmoke;
     border-radius: 30px;
     font-size: 20px;
     text-decoration: none;

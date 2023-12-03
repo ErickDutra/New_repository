@@ -32,6 +32,7 @@ div img{
     font-family: matrix;
     font-size: 50px;
     animation: float 3s ease infinite;
+    text-shadow: 0px 5px 10px green;
 }
 
 .title{
@@ -57,22 +58,18 @@ section{
 
 .information{
     background-color: rgba(0, 0, 0, 0.788);
-    display: flex;
-    align-content: center;
-    margin: 5%;
+    margin: 5% auto;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
-    max-width: 80%;
+    max-width: 75%;
     padding: 10px;
 }
 
 .itens{
-    margin: 2%;
+    margin: 30px auto;
     font-size: 30px;
     display: flex;
-    flex-direction: row;
     justify-content:space-around;
-    align-items: center;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -86,15 +83,30 @@ section{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.788);
     padding: 40px;
+    box-shadow: 0px 3px 10px green;
+
 }
-.about-box p{
-    font-size: 25px;
+.about{
+    font-size: 30px;
     color: white;
+    text-shadow: 0px 5px 10px green;
 }
 
 .info-box{
     font-size: 40px;
     color: white;
+    margin: 10px 0px;
+}
+.info-box h2{
+    margin-bottom: 30px;
+    font-size: 80px;
+    text-shadow: 0px 5px 10px green;
+}
+
+.info-box li{
+    display: block;
+    font-size: 30px;
+    text-shadow: 0px 5px 10px green;
 }
 
 .info-box a {
@@ -106,3 +118,4 @@ section{
 .info-box img{
     width: 30px;
 }
+
