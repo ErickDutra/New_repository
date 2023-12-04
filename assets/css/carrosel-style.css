@@ -7,7 +7,7 @@
     bottom: 0;
     font-size: 20px;
     line-height: 250px;
-    width: 40px;
+    width: 50px;
     text-align: center;
     cursor: pointer;
     border: none;
@@ -15,7 +15,6 @@
     opacity: 0.1;
     transition: all 600ms ease-in-out;
     border-radius: 5px;
-    display: block;
 }
 
 .arrow-right{

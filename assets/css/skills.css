@@ -25,3 +25,15 @@
         transform: translateY(10px);
     }
 }
+
+@media (max-width: 768px){
+    .skills img{
+        width: 50px;
+    }
+}
+
+@media (max-width: 400px){
+    .skills img{
+        width: 30px;
+    }
+}

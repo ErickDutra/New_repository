@@ -36,7 +36,6 @@ div img{
 }
 
 .title{
-    position: center;
     color: green;
     text-shadow: 0px 5px 10px black;
 }
@@ -58,7 +57,7 @@ section{
 
 .information{
     background-color: rgba(0, 0, 0, 0.788);
-    margin: 5% auto;
+    margin: 30px auto;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
     max-width: 75%;
@@ -90,6 +89,7 @@ section{
     font-size: 30px;
     color: white;
     text-shadow: 0px 5px 10px green;
+    text-indent: 40px;
 }
 
 .info-box{
@@ -99,7 +99,7 @@ section{
 }
 .info-box h2{
     margin-bottom: 30px;
-    font-size: 80px;
+    font-size: 4rem;
     text-shadow: 0px 5px 10px green;
 }
 
@@ -107,12 +107,14 @@ section{
     display: block;
     font-size: 30px;
     text-shadow: 0px 5px 10px green;
+    
 }
 
 .info-box a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: green;
+    
 }
 
 .info-box img{
