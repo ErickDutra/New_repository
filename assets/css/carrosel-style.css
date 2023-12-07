@@ -19,8 +19,11 @@
 
 .arrow-right{
     left: auto;
-    right: 0;
+    right: -50px;
     background: linear-gradient(to right, transparent 0%, black 200%);
+}
+.arrow-left{
+    left: -50px;
 }
 
 .arrow-left:hover{
@@ -61,19 +64,19 @@
     width: 250px;
     height: 250px;
     border-radius: 10px;
+    margin: 0px 10px;
 }
 
 .projects li{
     width: 250px;
     display: flex;
     align-items: center;
-
     border-radius: 10px;
     flex-direction: column;
 }
 
 .projects a{
-    margin-top: 2px;
+    margin-top: 5px;
     padding: 7px;
     background-color: whitesmoke;
     border-radius: 30px;
@@ -81,5 +84,7 @@
     text-decoration: none;
     color: green;
     font-family: matrix;
+    text-shadow: 0px 5px 10px green;
+    
 }
 
