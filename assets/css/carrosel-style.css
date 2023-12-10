@@ -57,7 +57,7 @@
 }
 
 .projects-box button img {
-    max-width: 50px;
+    max-width: 60px;
 }
 
 .projects img {
@@ -77,14 +77,37 @@
 
 .projects a{
     margin-top: 5px;
-    padding: 7px;
+    padding: 5px;
     background-color: whitesmoke;
-    border-radius: 30px;
-    font-size: 20px;
-    text-decoration: none;
+    border-radius: 10px;
     color: green;
-    font-family: matrix;
-    text-shadow: 0px 5px 10px green;
-    
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
 }
 
+.projects a p{
+    font-size: 20px;
+    font-family: matrix;
+    text-shadow: 0px 5px 10px green;
+}
+
+.projects a img{
+    width: 20px;
+    height: 20px;
+}
+
+
+@media (max-width: 768px){
+    .projects-box button img {
+        max-width: 30px;
+    }
+  
+}
+
+@media (max-width: 400px){
+    .projects-box button img {
+        max-width: 25px;
+    }
+}
