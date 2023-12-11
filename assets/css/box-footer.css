@@ -1,0 +1,33 @@
+
+footer{
+    padding: 7%;
+    background-color: rgb(14,14,14);
+    margin-top: 5%;
+    border-top: 2px solid rgb(0, 77, 128);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts ul{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255,193,7);
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+.contacts ul img{
+    width: 5rem;
+    margin: 1rem 2rem;
+    background-color: rgb(179, 134, 0);
+    border-radius: 40%;
+    padding: 20px;
+    box-shadow: inset 5px 5px 10px black;
+}
+
+.button-curriculum button{
+    padding: 20px;
+    width: 5rem;
+    
+}

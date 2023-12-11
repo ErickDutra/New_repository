@@ -1,6 +1,6 @@
 @font-face {
-    font-family: matrix;
-    src: url('../fonts/Antimatrix-BWBVw.ttf');
+    font-family: graffit;
+    src: url('../fonts/DonGraffiti.otf');
   }
 
 *{
@@ -11,7 +11,6 @@
 }
 body{
     background-color: rgb(66, 66, 66);
-    background-image: url(../img/back-matrix.jpg);
     background-size: cover;
 }
 
@@ -21,6 +20,7 @@ header{
     padding: 20px;
     justify-content: center;
     box-shadow: 0px 5px 10px rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 77, 128);
     
 }
 
@@ -29,15 +29,16 @@ div img{
 }
 
 .title-name{
-    font-family: matrix;
+    font-family: graffit;
     font-size: 50px;
     animation: float 3s ease infinite;
-    text-shadow: 0px 5px 10px green;
+    text-shadow: 0px 5px 10px rgb(0, 77, 128);
+    letter-spacing: 3px;
 }
 
 .title{
-    color: green;
-    text-shadow: 0px 5px 10px black;
+    color: whitesmoke;
+    text-shadow: 0px 5px 10px rgb(0, 77, 128);
 }
 
 @keyframes float{
@@ -58,10 +59,11 @@ section{
 .information{
     background-color: rgba(0, 0, 0, 0.788);
     margin: 30px auto;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px black;
     max-width: 75%;
     padding: 10px;
+    border: 2px solid rgb(0, 77, 128);
 }
 
 .itens{
@@ -70,25 +72,28 @@ section{
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 30px;
+    min-width: 100%;
 }
 
-.photo{
-    width: 250px;
-    background-color: transparent;
+.photo img{
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid rgb(255,193,7);
 }
+
 .about-box{
-    border: 2px solid green;
+    margin-top: 5rem;
+    border: 2px solid rgb(255,193,7);
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.788);
     padding: 40px;
-    box-shadow: 0px 3px 10px green;
-
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+    width: 80%;
 }
 .about{
     font-size: 30px;
     color: white;
-    text-shadow: 0px 5px 10px green;
     text-indent: 40px;
 }
 
@@ -96,21 +101,22 @@ section{
     font-size: 40px;
     color: white;
     margin: 10px 0px;
+    margin-top: 200px;
 }
+
 .info-box h2{
     margin-bottom: 30px;
     font-size: 4rem;
-    text-shadow: 0px 5px 10px green;
+    text-shadow: 0px 5px 10px rgb(0, 77, 128);
 }
 
 .info-box li{
-    display: block;
-    text-shadow: 0px 5px 10px green;
+    text-shadow: 0px 5px 10px rgb(0, 77, 128);
 }
 
 .info-box a {
     text-decoration: none;
-    color: green;
+    color: rgb(255,193,7);
     display: flex;
     margin: 10px;
     align-items: center;
@@ -124,3 +130,17 @@ section{
     width: 30px;
 }
 
+@media (max-width: 768px){
+    .title-name{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 400px){
+    .about-box{
+        width: 85%;
+    }
+    .title-name{
+        font-size: 30px;
+    }
+}
