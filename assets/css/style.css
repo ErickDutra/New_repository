@@ -160,6 +160,10 @@ section{
         font-size: 0.5em;
         padding: 1em;
     }
+    .info-box span{
+        font-size: 1em;
+        margin-left: 0.3em;
+    }
 }
 
 @media (max-width: 400px){

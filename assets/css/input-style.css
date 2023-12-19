@@ -7,7 +7,7 @@
     padding: 10em 3em;
     border-radius: 10px;
     border: 2px solid rgb(255,193,7);
-
+    box-shadow: 5px 5px 10px black;
 }
 .box-input h2{
     font-size: 4em;
@@ -18,7 +18,7 @@
     animation: float 3s ease infinite;
 }
 
-.box-input p{
+.box-input label{
     color: whitesmoke;
     font-size: 2em;
 }
@@ -44,8 +44,26 @@
     align-items: center;
 
 }
-.box-input div input{
-    width: 30em;
-    height: 30em;
+.box-input input{
+    font-size: 1.5em;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+.box-input div textarea{
+    font-size: 1.5em;
     border-radius: 10px;
+    padding: 1em;
+    
+}
+.box-input button{
+    width: 13em;
+    height: 4em;
+    margin-top: 2em;
+    border-radius: 10px;
+    font-size: 1.5em;
+    background-color: rgb(255,193,7);
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px black;
+
 }

@@ -149,23 +149,28 @@
                 </div>
             </div>
         </div> 
-        <div class="box-input">
+        <form class="box-input">
             <h2>Deixe uma mensagem</h2>
             <ul >
                 <li>
-                    <p>Nome:</p>
-                    <input type="text">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome">
                 </li>
                 <li>
-                    <p>Email:</p>
-                    <input type="text">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder=".ex:. email@email.com" >
                 </li>
             </ul>
             <div>
-                <p>Mensagem:</p>
-                <input type="text">
+                <label for="textarea">Mensagem:</label>
+                <textarea name="textarea" placeholder="Deixe uma Mensagem..." id="textarea" rows="10" cols="30">
+
+                </textarea>
             </div>
-        </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
         
     </section>
 
