@@ -145,7 +145,7 @@ section{
 
 @media (max-width: 768px){
     .title-name{
-        font-size: 40px;
+        font-size: 30px;
     }
     .photo img{
         width: 250px;
@@ -164,9 +164,15 @@ section{
         font-size: 1em;
         margin-left: 0.3em;
     }
+    .info-box h2{
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 400px){
+    .info-box h2{
+        font-size: 3rem;
+    }
     .about-box{
         width: 85%;
     }
