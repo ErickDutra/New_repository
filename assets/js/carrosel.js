@@ -1,18 +1,20 @@
 const controls = document.querySelectorAll(".control");
 let currentItem = 0;
-const items = document.querySelectorAll(".item-carrosel");
+const items = document.querySelectorAll(".item");
 const maxItems = items.length;
 
 controls.forEach((control) => {
   control.addEventListener('click', (e) => {
-    isLeft = e.target.classList.contains("arrow-left");
+    isRight = e.target.classList.contains("arrow-right");
 
-    if (isLeft) {
+
+    if (isRight) {
       currentItem -= 1;
     }
     else {
       currentItem += 1;
     };
+
 
     if (currentItem >= maxItems) {
       currentItem = 0;
@@ -25,7 +27,7 @@ controls.forEach((control) => {
     items.forEach((item) => item.classList.remove("current-item"));
 
     items[currentItem].scrollIntoView({
-      behavior: "smooth",
+      behavior: "instant",
       inline: "center"
     });
 
