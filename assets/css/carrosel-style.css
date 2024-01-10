@@ -107,11 +107,34 @@
     .projects-box button img {
         max-width: 30px;
     }
+
+    .arrow-left,
+    .arrow-right{
+    width: 1.5em;
+    }
+    .arrow-right{
+        left: auto;
+        right: -40px;
+    }
+    .arrow-left{
+        left: -40px;
+    }
   
 }
 
 @media (max-width: 400px){
     .projects-box button img {
         max-width: 25px;
+    }
+    .arrow-left,
+    .arrow-right{
+    width: 1em;
+    }
+    .arrow-right{
+        left: auto;
+        right: -30px;
+    }
+    .arrow-left{
+        left: -30px;
     }
 }

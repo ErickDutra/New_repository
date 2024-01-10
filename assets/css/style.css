@@ -12,6 +12,7 @@
 body{
     background-color: rgb(66, 66, 66);
     background-size: cover;
+    width: 100%;
 }
 
 header{
@@ -61,7 +62,7 @@ section{
     margin: 30px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
-    max-width: 75%;
+    max-width: 95%;
     padding: 10px;
     border: 2px solid rgb(255,193,7);
 }
@@ -73,7 +74,7 @@ section{
     justify-content:space-around;
     flex-wrap: wrap;
     padding: 30px;
-    min-width: 100%;
+    width: 90%;
 }
 
 .photo img{
@@ -146,6 +147,17 @@ section{
         flex-direction: column;
         padding: 1.5em;
     }
+    .about{
+        font-size: 1em;
+        color: white;
+        text-indent: 2em;
+    }
+    .itens{
+        margin: 30px auto;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        padding: 1.5em;
+    }
 }
 
 @media (max-width: 768px){
@@ -172,22 +184,22 @@ section{
     .info-box h2{
         font-size: 4rem;
     }
+
+    .itens{
+        padding: 1em;
+    }
 }
 
-@media (max-width: 400px){
+@media (max-width: 430px){
     .info-box h2{
         font-size: 3rem;
     }
     .about-box{
-        width: 85%;
+        min-width: 90%;
+        font-size: 0.6em;
+        padding: 0.5em;
     }
     .title-name{
         font-size: 2em;
-    }
-    .about-box{
-        display: flex;
-        flex-direction: column;
-        font-size: 0.5em;
-        padding: 0.5em;
     }
 }
