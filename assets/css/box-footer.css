@@ -81,7 +81,7 @@ footer{
 
 @media (max-width: 760px){
     .contacts ul img{
-        width: 2rem;
+        width: 3rem;
         margin: 1rem 2rem;
         background-color: rgb(179, 134, 0);
         border-radius: 40%;
@@ -90,12 +90,12 @@ footer{
     }
    
     .contacts ul img{
-        width: 0.5em;
+        width: 1em;
         margin: 1em 2em;
     }
 
     .name-dawnload{
-        padding: 2em;  
+        padding: 1.5em;  
     }
     .button-curriculum button{
         padding: 2em;
