@@ -59,17 +59,17 @@ footer{
 .curriculum-dawnload{
     border-radius: 100%; 
     background-color:  #a73733;
-    padding: 1.5em;
+    padding: 1em;
+    width: 2em;
     box-shadow: inset 5px 5px 10px black;
     align-items: center;
     justify-content: center;
     display: flex;
+    font-size: 1.5em;
+    color: whitesmoke;
 }
 
 
-.curriculum-dawnload img{
-    width: 4em;
-}
 
 .box-division{
     font-size: 3em;
