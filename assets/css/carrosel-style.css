@@ -12,7 +12,7 @@
     text-align: center;
     cursor: pointer;
     border: none;
-    background-color: rgb(14,14,14);
+    background-color: transparent;
     border-radius: 5px;
     transition: all 600ms ease-in-out;
 
@@ -132,12 +132,13 @@
     .arrow-left,
     .arrow-right{
     width: 1em;
+
     }
     .arrow-right{
         left: auto;
-        right: -30px;
+        right: -45px;
     }
     .arrow-left{
-        left: -30px;
+        left: -45px;
     }
 }

@@ -112,6 +112,9 @@ footer{
     .curriculum-dawnload{
         padding: 1em;
     }
+    .curriculum-dawnload p{
+        font-size: 0.5em;
+    }
 
 
     .curriculum-dawnload img{
@@ -131,23 +134,15 @@ footer{
     }
 
     .name-dawnload{
-        padding: 2em;  
+        padding: 2.5em;  
     }
+
     .button-curriculum button{
-        padding: 3em;
-        height: 5em;
+        padding: 3.5em;
+        height: 6em;
     }
     .button-curriculum button p{
-        font-size: 1em;
-    }
-        
-    .curriculum-dawnload{
-        padding: 1em;
-    }
-
-
-    .curriculum-dawnload img{
-        width: 2em;
+        font-size: 0.5em;
     }
 
     .box-division{

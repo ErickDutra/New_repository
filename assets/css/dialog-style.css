@@ -9,6 +9,7 @@ dialog{
     border-radius: 10px;
     border: 2px solid #e84f4b;
     background-color: rgb(66, 66, 66);
+    
 }
 
 dialog::backdrop{
@@ -21,4 +22,73 @@ dialog::backdrop{
     color: whitesmoke;
     background-color: #e84f4b;
     margin-top: 2px;
+    border: 2px solid whitesmoke;
+    margin: 1em;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+}
+.projects dialog h2{
+    font-family: 'Courier New', Courier, monospace;
+    animation: none;
+    text-align: center;
+}
+
+dialog div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+dialog div p{
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 80%;
+    padding: 2em;
+    border: 2px solid rgb(255,193,7);
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+@media (max-width: 769px){
+    dialog{  
+        max-width: 80%;
+    }
+    .projects dialog h2{
+        font-size: 2em;
+    }
+
+    dialog div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+    
+    dialog div p{
+        padding: 1em;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5em;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 415px){
+    .projects dialog h2{
+        font-size: 1.5;
+    }
+    
+    dialog div p{
+        padding: 2em;
+        border: 2px solid rgb(255,193,7);
+        border-radius: 10px;
+        box-shadow: 0px 3px 10px rgb(0, 0, 0);
+        color: whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+        max-width: 80%;
+    }
+    
 }
