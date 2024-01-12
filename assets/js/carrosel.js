@@ -9,10 +9,10 @@ controls.forEach((control) => {
 
 
     if (isRight) {
-      currentItem -= 1;
+      currentItem += 1;
     }
     else {
-      currentItem += 1;
+      currentItem -= 1;
     };
 
 
