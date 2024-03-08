@@ -1,13 +1,10 @@
 .arrow-left,
-.arrow-right{
+.arrow-right {
     position: absolute;
     top: 0;
-    left: 0;
-    right: auto;
     bottom: 0;
     font-size: 3em;
     color: whitesmoke;
-    line-height: 250px;
     width: 50px;
     text-align: center;
     cursor: pointer;
@@ -15,26 +12,22 @@
     background-color: transparent;
     border-radius: 5px;
     transition: all 600ms ease-in-out;
-
 }
 
-.arrow-right{
-    left: auto;
+.arrow-right {
     right: -80px;
 }
-.arrow-left{
+
+.arrow-left {
     left: -80px;
 }
 
-.arrow-left:hover{
+.arrow-left:hover,
+.arrow-right:hover {
     opacity: 1;
 }
 
-.arrow-right:hover{
-    opacity: 1;
-}
-
-.item-carrosel{
+.item-carrosel {
     width: 275px;
     height: 290px;
     flex-shrink: 0;
@@ -42,33 +35,28 @@
     transition: all 600ms ease-in-out;
 }
 
-.current-item{
+.current-item {
     opacity: 1;
 }
 
-
-.projects-wrapper::-webkit-scrollbar{
+.projects-wrapper::-webkit-scrollbar {
     display: none;
 }
 
-.projects-wrapper{
+.projects-wrapper {
     -ms-overflow-style: none;
     scrollbar-width: none;
-}
-
-.projects-box button img {
-    max-width: 60px;
 }
 
 .project-img {
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    margin: 0px 10px;
+    margin: 0 10px;
     box-shadow: 5px 5px 10px black;
 }
 
-.projects li{
+.projects li {
     width: 300px;
     height: 350px;
     padding: 30px;
@@ -76,17 +64,17 @@
     align-items: center;
     border-radius: 10px;
     flex-direction: column;
-    background-color: rgb(14,14,14);
+    background-color: rgb(14, 14, 14);
     border: 2px solid rgb(0, 77, 128);
     box-shadow: 5px 5px 10px black;
 }
 
-.projects a{
+.projects a {
     margin-top: 10px;
     padding: 5px;
-    background-color:  rgb(0, 77, 128);
+    background-color: rgb(0, 77, 128);
     border-radius: 10px;
-    color:whitesmoke;
+    color: whitesmoke;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -95,50 +83,50 @@
     box-shadow: 5px 5px 10px black;
 }
 
-.projects a p{
+.projects a p {
     font-size: 20px;
-    text-shadow: 0px 5px 10px  rgb(0, 77, 128);
+    text-shadow: 0px 5px 10px rgb(0, 77, 128);
 }
 
-.projects a img{
+.projects a img {
     width: 20px;
     height: 20px;
 }
 
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .projects-box button img {
         max-width: 30px;
     }
 
     .arrow-left,
-    .arrow-right{
-    width: 1.5em;
+    .arrow-right {
+        width: 1.5em;
     }
-    .arrow-right{
-        left: auto;
+
+    .arrow-right {
         right: -40px;
     }
-    .arrow-left{
+
+    .arrow-left {
         left: -40px;
     }
-  
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
     .projects-box button img {
         max-width: 25px;
     }
-    .arrow-left,
-    .arrow-right{
-    width: 1em;
 
+    .arrow-left,
+    .arrow-right {
+        width: 1em;
     }
-    .arrow-right{
-        left: auto;
+
+    .arrow-right {
         right: -45px;
     }
-    .arrow-left{
+
+    .arrow-left {
         left: -45px;
     }
 }
