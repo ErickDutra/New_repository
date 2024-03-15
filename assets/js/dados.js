@@ -19,12 +19,12 @@ async function updatePortfolio() {
             portfolio.innerHTML = profileData.itens.map(item => {
                 return `<li class="item-carrosel current-item item  " >
                 <h2>
-                   ${item.title}
+                   ${item.title} 
                 </h2>
                 <img src="${item.imagem}" alt="${item.title}" class="project-img">
                     <div class="project-info">
                     <p>
-                        ${item.descricao}
+                        ${item.descricao} 
                     </p>
                     <a href="${item.url}">
                         <img src="./assets/icons/github.svg" alt="github">
