@@ -6,13 +6,13 @@
 
     "itens": [
       {
-        "titulo": "Login Netflix",
+        "title": "Login Netflix",
         "url": "https://github.com/ErickDutra/Copia_login_Netflix",
         "imagem": "./assets/img/projects/netflix.svg",
         "descricao": "Projeto criado em HTML e CSS, Criado com o objetivo de praticar e evoluir aprendizado."
       },
       {
-        "titulo": " Calculadora",
+        "title": " Calculadora",
         "url": "https://github.com/ErickDutra/calculadora_pyside",
         "imagem": "./assets/img/projects/calculadora.svg",
         "descricao": "Projeto desenvolvido em Python, utilizando a biblioteca PySide, projeto criado em curso para pratica de aprendizado."
