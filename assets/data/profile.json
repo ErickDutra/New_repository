@@ -1,0 +1,30 @@
+{
+    "name": "Erick Dutra",
+    "location": "Vila Velha - ES",
+    "linkedin": "linkedin",
+    "email": "deverickdutra@gmail.com",
+
+    "itens": [
+      {
+        "titulo": "Item 1",
+        "url": "https://exemplo.com/item1",
+        "imagem": "caminho/para/imagem1.jpg",
+        "descrição": "Esta é a descrição do item 1",
+        "ferramentas": ["ferramenta1", "ferramenta2", "ferramenta3"]
+      },
+      {
+        "titulo": "Item 2",
+        "url": "https://exemplo.com/item2",
+        "imagem": "caminho/para/imagem2.jpg",
+        "descrição": "Esta é a descrição do item 2",
+        "ferramentas": ["ferramenta4", "ferramenta5"]
+      },
+      {
+        "titulo": "Item 3",
+        "url": "https://exemplo.com/item3",
+        "imagem": "caminho/para/imagem3.jpg",
+        "descrição": "Esta é a descrição do item 3",
+        "ferramentas": ["ferramenta6"]
+      }
+    ]
+  }
