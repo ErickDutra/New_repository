@@ -7,7 +7,7 @@
 .skills ul{
     display: flex;
     flex-direction: row;
-    border-bottom: 5px solid #e84f4b;
+    border-bottom: 5px solid rgb(0, 77, 128);
     cursor: pointer;
     transition: .35s;
 }

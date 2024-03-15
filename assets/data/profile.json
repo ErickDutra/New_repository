@@ -6,25 +6,17 @@
 
     "itens": [
       {
-        "titulo": "Item 1",
-        "url": "https://exemplo.com/item1",
-        "imagem": "caminho/para/imagem1.jpg",
-        "descrição": "Esta é a descrição do item 1",
-        "ferramentas": ["ferramenta1", "ferramenta2", "ferramenta3"]
+        "titulo": "Login Netflix",
+        "url": "https://github.com/ErickDutra/Copia_login_Netflix",
+        "imagem": "./assets/img/projects/netflix.svg",
+        "descrição": "Projeto criado em HTML e CSS, Criado com o objetivo de praticar e evoluir aprendizado."
       },
       {
-        "titulo": "Item 2",
-        "url": "https://exemplo.com/item2",
-        "imagem": "caminho/para/imagem2.jpg",
-        "descrição": "Esta é a descrição do item 2",
-        "ferramentas": ["ferramenta4", "ferramenta5"]
-      },
-      {
-        "titulo": "Item 3",
-        "url": "https://exemplo.com/item3",
-        "imagem": "caminho/para/imagem3.jpg",
-        "descrição": "Esta é a descrição do item 3",
-        "ferramentas": ["ferramenta6"]
+        "titulo": " Calculadora",
+        "url": "https://github.com/ErickDutra/calculadora_pyside",
+        "imagem": "./assets/img/projects/calculadora.svg",
+        "descrição": "Projeto desenvolvido em Python, utilizando a biblioteca PySide, projeto criado em curso para pratica de aprendizado."
       }
     ]
+    
   }

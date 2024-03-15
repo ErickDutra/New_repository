@@ -1,42 +1,44 @@
-const fs = require('fs');
-
-
-fs.readFile('assets/data/profile.json', 'utf8', (err, data) => {
-    if (err) {
-        console.error('Erro ao ler o arquivo:', err);
-        return;
-    }
-
+async function fetchProfileData() {
     try {
-        
-        const dados = JSON.parse(data);
+        const response = await fetch('https://raw.githubusercontent.com/ErickDutra/New_repository/main/assets/data/profile.json');
+        if (!response.ok) {
+            throw new Error('Erro ao buscar os dados do perfil');
+        }
+        return await response.json();
+    } catch (error) {
+        console.error('Erro ao buscar os dados do perfil:', error);
+        return null;
+    }
+}
 
-        
-        function updatePortfolio(dados) {
-            const portfolio = document.getElementById('profile.portfolio')
-            portfolio.innerHTML = dados.itens.map(item => {
-                return `<li class="item-carrosel current-item item">
-                            <img src="${item.imagem}" alt="netflix copia login" class="project-img">
-                            <a href="${item.url}" target="_blank">
-                                <img src="./assets/icons/github.svg" alt="github">
-                                <p>${item.titulo}</p>
-                            </a>
-                            <button class="open-popup-1">Info</button>
-                            <dialog class="project-1">
-                                <div>
-                                    <h2>${item.titulo}</h2>
-                                    <p>${item.descrição}</p>
-                                </div>
-                                <button>fechar</button>
-                            </dialog>
-                        </li>`
+async function updatePortfolio() {
+    try {
+        const profileData = await fetchProfileData();
+        if (profileData) {
+            const portfolio = document.getElementById('profile.portfolio');
+            portfolio.innerHTML = profileData.itens.map(item => {
+                return `<li class="item-carrosel current-item item  " >
+                <h2>
+                   ${item.title}
+                </h2>
+                <img src="${item.imagem}" alt="${item.title}" class="project-img">
+                    <div class="project-info">
+                    <p>
+                        ${item.descricao}
+                    </p>
+                    <a href="${item.url}">
+                        <img src="./assets/icons/github.svg" alt="github">
+                        <p>
+                            ir para Github
+                        </p>
+                    </a>
+                </div>
+            </li>`;
             }).join('');
         }
-
-        // Chamando a função para atualizar o portfolio
-        updatePortfolio(dados);
-
     } catch (error) {
-        console.error('Erro ao analisar o JSON:', error);
+        console.error('Erro ao atualizar o portfólio:', error);
     }
-});
+}
+
+updatePortfolio();
