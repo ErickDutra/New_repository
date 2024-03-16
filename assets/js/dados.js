@@ -24,7 +24,7 @@ async function updatePortfolio() {
                 <img src="${item.imagem}" alt="${item.title}" class="project-img">
                     <div class="project-info">
                     <p>
-                        ${item.descricao} 
+                        ${item.descricao}
                     </p>
                     <a href="${item.url}">
                         <img src="./assets/icons/github.svg" alt="github">

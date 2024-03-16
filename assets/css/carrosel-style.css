@@ -9,6 +9,7 @@
 
 .current-item {
     opacity: 1;
+    
 }
 
 .projects-wrapper::-webkit-scrollbar {
@@ -36,6 +37,8 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
+   
+
 }
 
 .projects a {
@@ -66,6 +69,9 @@
     color: whitesmoke;
     margin: 2rem;
     font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 @media (max-width: 768px) {
