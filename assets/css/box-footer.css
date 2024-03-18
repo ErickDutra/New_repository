@@ -87,12 +87,8 @@ footer{
 
 @media (max-width: 760px){
     .contacts ul img{
-        width: 3rem;
+        width: 4rem;
         margin: 1rem 2rem;
-        background-color: rgb(179, 134, 0);
-        border-radius: 40%;
-        padding: 0.8rem;
-        box-shadow: inset 5px 5px 10px black;
     }
    
     .contacts ul img{
