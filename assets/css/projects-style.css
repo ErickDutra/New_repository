@@ -9,14 +9,14 @@
     gap: 10px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #F2D4AE;
- 
+    background-color: #A88147;
+    margin: 5rem 0;
 }
 
 .table-projects {
     display: flex;
     flex-direction: column;
-    background-color: #F2D4AE;
+    background-color:  #A88147;
     width: 100%;
     border-radius: 8px;
     box-shadow: 5px 5px 10px black;
@@ -31,12 +31,12 @@
     color: whitesmoke;    margin-top: 5rem;
     margin-bottom: 3rem;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px #03A61C;
+    -webkit-text-stroke: 1px #7847A8;
     text-shadow: 
-        -1px -1px 0 #03A61C,  
-         1px -1px 0 #03A61C,
-        -1px  1px 0 #03A61C,
-         1px  1px 0 #03A61C;
+        -1px -1px 0 #7847A8,  
+         1px -1px 0 #7847A8,
+        -1px  1px 0 #7847A8,
+         1px  1px 0 #7847A8;
 }
 
 .item{
@@ -66,7 +66,7 @@
     display: flex;
     align-items: center;
     border-radius: 10px;
-   background-color: #BF7636;
+   background-color: #3F5346;
    box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
 
 }
@@ -87,7 +87,6 @@
 
 .projects h2{
     font-size: 3rem;
-    margin: 1rem 0;
 }
 
 .projects a img {

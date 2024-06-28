@@ -5,9 +5,8 @@ a{
 
 footer{
     padding: 7%;
-    background-color: #F2D4AE;
+    background-color: #A88147;
     margin-top: 5%;
-    border-top: 2px solid rgb(0, 77, 128);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -20,7 +19,7 @@ footer{
     padding: 3em;
     width: 30em;
     height: 2em;
-    background-color: #03A61C;
+    background-color: #7847A8;
     border-bottom-left-radius: 4em;
     border-bottom-right-radius: 4em;
     display: flex;

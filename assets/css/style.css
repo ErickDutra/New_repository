@@ -6,14 +6,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body{
-    background-color: #5BD987;
+    background-color: #4aaf6d;
     background-size: cover;
     width: 100%;
 }
 
 header{
     display: flex;
-    background-color: #F2D4AE;
+    background-color: #A88147;
     padding: 20px;
     justify-content: center;
     box-shadow: 0px 5px 10px rgb(0, 0, 0);
@@ -29,12 +29,12 @@ header{
     font-size: 5em;
     letter-spacing: 3px;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px #03A61C;
+    -webkit-text-stroke: 1px #7847A8;
     text-shadow: 
-        -1px -1px 0 #03A61C,  
-         1px -1px 0 #03A61C,
-        -1px  1px 0 #03A61C,
-         1px  1px 0 #03A61C;
+        -1px -1px 0 #7847A8,  
+         1px -1px 0 #7847A8,
+        -1px  1px 0 #7847A8,
+         1px  1px 0 #7847A8;
 }
 
 
@@ -45,15 +45,15 @@ section{
 }
 
 .information{
-    background-color: #F2D4AE;
+    background-color: #A88147;
     margin: 30px auto;
     box-shadow: 5px 5px 10px black;
     padding: 10px;
-    border: 2px solid whitesmoke;
+
 }
 
 .itens{
-    margin-left: 30rem;
+    margin:0 30rem;
     font-size: 30px;
     display: flex;
     justify-content: space-between;
@@ -64,9 +64,12 @@ section{
 }
 
 .photo img{
-    width:550px;
-    height: auto;
-    border-radius: 10px;
+    width:600px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.486);
 }
 
 .name-sobre{
@@ -78,17 +81,17 @@ section{
     font-size: 3em;
     letter-spacing: 3px;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px #03A61C;
+    -webkit-text-stroke: 1px #7847A8;
     text-shadow: 
-        -1px -1px 0 #03A61C,  
-         1px -1px 0 #03A61C,
-        -1px  1px 0 #03A61C,
-         1px  1px 0 #03A61C;
+        -1px -1px 0 #7847A8,  
+         1px -1px 0 #7847A8,
+        -1px  1px 0 #7847A8,
+         1px  1px 0 #7847A8;
 }
 .about-box{
     margin-top: 1em;
     border-radius: 10px;
-    background-color: #BF7636;
+    background-color: #3F5346;
     padding: 1em;
     box-shadow: 0px 3px 10px rgb(0, 0, 0);
     width: 50%;
