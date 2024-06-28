@@ -1,20 +1,23 @@
-.skills{
-    margin: 0;
-    padding: 10em;
-}
 
+  .skills-itens{
+    min-width: 100%; 
+    animation: slide 10s infinite linear;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-300%); 
+    }
+  }
 
 .skills ul{
     display: flex;
     flex-direction: row;
-    border-bottom: 5px solid rgb(0, 77, 128);
     cursor: pointer;
     transition: .35s;
-}
-
-.skills ul:hover > :not(:hover){
-    opacity: .4;
-    transform: scale(0.9);
 }
 
 .skills li{

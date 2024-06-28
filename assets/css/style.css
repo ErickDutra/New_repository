@@ -6,23 +6,18 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body{
-    background-color: rgb(66, 66, 66);
+    background-color: #5BD987;
     background-size: cover;
     width: 100%;
 }
 
 header{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.788);
+    background-color: #F2D4AE;
     padding: 20px;
     justify-content: center;
     box-shadow: 0px 5px 10px rgb(0, 0, 0);
-    border-bottom: 2px solid whitesmoke;
     
-}
-
-div img{
-    width: 300px;
 }
 
 .title-name{
@@ -30,8 +25,16 @@ div img{
     letter-spacing: 3px;
 }
 
-.title{
-    color: whitesmoke
+.title-name{
+    font-size: 5em;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px #03A61C;
+    text-shadow: 
+        -1px -1px 0 #03A61C,  
+         1px -1px 0 #03A61C,
+        -1px  1px 0 #03A61C,
+         1px  1px 0 #03A61C;
 }
 
 
@@ -42,45 +45,62 @@ section{
 }
 
 .information{
-    background-color: rgba(0, 0, 0, 0.788);
+    background-color: #F2D4AE;
     margin: 30px auto;
-    border-radius: 10px;
     box-shadow: 5px 5px 10px black;
-    max-width: 95%;
     padding: 10px;
     border: 2px solid whitesmoke;
 }
 
 .itens{
-    margin: 30px auto;
+    margin-left: 30rem;
     font-size: 30px;
     display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 30px;
     width: 90%;
+    align-items: center;
+    gap: 10rem;
 }
 
 .photo img{
-    width: 350px;
+    width:550px;
+    height: auto;
     border-radius: 10px;
-    border: 2px solid whitesmoke;
 }
 
-.about-box{
-    margin-top: 5em;
-    border: 2px solid whitesmoke;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.788);
-    padding: 2em;
-    box-shadow: 0px 3px 10px rgb(0, 0, 0);
-    width: 80%;
+.name-sobre{
+   display: flex;
+   flex-direction: column;
 }
+
+.name-sobre h2{
+    font-size: 3em;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px #03A61C;
+    text-shadow: 
+        -1px -1px 0 #03A61C,  
+         1px -1px 0 #03A61C,
+        -1px  1px 0 #03A61C,
+         1px  1px 0 #03A61C;
+}
+.about-box{
+    margin-top: 1em;
+    border-radius: 10px;
+    background-color: #BF7636;
+    padding: 1em;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+    width: 50%;
+}
+
 .about{
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 1em;
     color: white;
     text-indent: 2em;
     text-align: justify;
+    text-shadow: 0px 5px 10px rgb(0, 0, 0);
 }
 
 .info-box{
@@ -88,10 +108,10 @@ section{
     margin: 10px 0px;
     margin-top: 2em;
 }
-
-.info-box h2{
-    margin-bottom: 30px;
-    font-size: 6rem;
+.info-box ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 
@@ -103,8 +123,9 @@ section{
     align-items: center;
 }
 
-.info-box a:hover{
-    text-decoration: underline;
+
+.info-box img:hover{
+    transform: scale(1.2);
 }
 
 .info-box span{

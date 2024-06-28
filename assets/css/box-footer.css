@@ -2,9 +2,10 @@
 a{
     text-decoration: none;
 }
+
 footer{
     padding: 7%;
-    background-color: rgb(14,14,14);
+    background-color: #F2D4AE;
     margin-top: 5%;
     border-top: 2px solid rgb(0, 77, 128);
     display: flex;
@@ -13,58 +14,39 @@ footer{
     align-items: center;
 }
 
-.contacts ul img{
-    width: 5rem;
-    border-radius: 40%;
-    padding: 20px;
-
-}
-.contacts a{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: whitesmoke;
-}
-.contacts a h2{
-    font-size: 2rem;
-}
-
-.contacts a:hover{
-    text-decoration: underline;
-}
-
 .button-curriculum button{
-    padding: 5.4em;
-    width: 42em;
-    height: 6em;
-    background-color:  rgb(0, 77, 128);
-    border-radius: 4em;
+   position: relative;
+   transform: translateX(10px);
+    padding: 3em;
+    width: 30em;
+    height: 2em;
+    background-color: #03A61C;
+    border-bottom-left-radius: 4em;
+    border-bottom-right-radius: 4em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
 }
 .name-dawnload{
-    background-color:  rgb(0, 38, 63);
     border-radius: 3em;
     padding: 2em;
     display: flex;
-    box-shadow: inset 5px 5px 10px black;
     
 }
 
 .button-curriculum button p{
+    font-weight: bold;
     font-size: 2em;
     color: whitesmoke;
+    text-shadow: 0px 5px 10px rgb(0, 0, 0);
 }
 
 .curriculum-dawnload{
     border-radius: 100%; 
-    background-color:  rgb(0, 38, 63);
     padding: 1em;
     width: 2em;
-    box-shadow: inset 5px 5px 10px black;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -72,12 +54,6 @@ footer{
     color: whitesmoke;
 }
 
-
-
-.box-division{
-    font-size: 3em;
-    color: #a73733;
-}
 
 @media (max-width: 1220px){
  footer{
