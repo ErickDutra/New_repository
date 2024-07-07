@@ -5,7 +5,7 @@ a{
 
 footer{
     padding: 7%;
-    background-color: #A88147;
+    background-color: #025E73;
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -13,21 +13,6 @@ footer{
     align-items: center;
 }
 
-.button-curriculum button{
-   position: relative;
-   transform: translateX(10px);
-    padding: 3em;
-    width: 30em;
-    height: 2em;
-    background-color: #7847A8;
-    border-bottom-left-radius: 4em;
-    border-bottom-right-radius: 4em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    box-shadow: 0px 5px 10px rgb(0, 0, 0);
-}
 .name-dawnload{
     border-radius: 3em;
     padding: 2em;
