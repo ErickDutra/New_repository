@@ -6,10 +6,10 @@
 
     "itens": [
       {
-        "title": "Login Netflix",
-        "url": "https://github.com/ErickDutra/Copia_login_Netflix",
-        "imagem": "html",
-        "descricao": "Projeto elaborado em HTML e CSS, com o propósito de praticar e aprimorar os conhecimentos adquiridos."
+        "title": "Api agenda",
+        "url": "https://github.com/ErickDutra/api_agenda",
+        "imagem": "Java",
+        "descricao": "Projeto elaborado em Java utilizando Spring-boot"
       },
       {
         "title": " Calculadora",
@@ -22,6 +22,18 @@
         "url": "https://github.com/ErickDutra/stock_app?tab=readme-ov-file",
         "imagem": "flutter",
         "descricao": "Projeto desenvolvido em Flutter e Dart para gerenciamento de estoque ."
+      },
+      {
+        "title": "Spotfy Clone",
+        "url": "https://github.com/ErickDutra/spotfy_clone",
+        "imagem": "flutter",
+        "descricao": "Projeto clone desenvolvido em Flutter para pratica."
+      },
+      {
+        "title": "Pattern - Strategy",
+        "url": "https://github.com/ErickDutra/design_strategy",
+        "imagem": "Java",
+        "descricao": "Design pattern Strategy em Java"
       }
     ]
     
