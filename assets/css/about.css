@@ -1,0 +1,109 @@
+.about{
+    background-color: #f8f9fa;
+    margin: 2rem 0rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.information{
+    background-color: #000B0D;
+    margin: 30px auto;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+    height: 80vh;
+
+}
+
+.itens{
+    margin: 0 10rem;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 90%;
+    align-items: center;
+    gap: 10rem;
+}
+
+.photo img{
+    width:400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.486);
+}
+
+.name-sobre{
+   display: flex;
+   flex-direction: column;
+}
+
+.name-sobre h2{
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: #0D0D0D;
+    -webkit-text-stroke: 1px #A52502;
+    text-shadow: 
+        -1px -1px 0 #A52502,  
+         1px -1px 0 #A52502,
+        -1px  1px 0 #A52502,
+         1px  1px 0 #A52502;
+}
+.about-box{
+    border-radius: 10px;
+    background-color:#390D02;
+    padding: 1em;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+    width: 80%;
+}
+
+.about-text{
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    text-indent: 2em;
+    text-align: justify;
+    text-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+.info-box{
+    color: white;
+    margin: 10px 0px;
+    margin-top: 2em;
+}
+.info-box ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.info-box a {
+    text-decoration: none;
+    color: rgb(0, 77, 128);
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.info-box img:hover{
+    transform: scale(1.2);
+}
+
+.info-box span{
+    margin-left: 5px;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+.info-box img{
+    width: 1.5em;
+}

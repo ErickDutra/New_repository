@@ -5,123 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/projects-style.css">
-    <link rel="stylesheet" href="./assets/css/carrosel-style.css">
-    <link rel="stylesheet" href="./assets/css/skills.css">
-    <link rel="stylesheet" href="./assets/css/box-footer.css">
-    <link rel="stylesheet" href="./assets/css/input-style.css">
-    <link rel="stylesheet" href="./assets/css/dialog-style.css">
-
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
+    
     <link rel="shortcut icon" href="./assets/icons/icon.svg" type="image/x-icon">
     <title>Dutra</title>
 </head>
 <body>
-    <header class="title">
-        <h1 class="title-name">
-            Software Developer
-        </h1>
+    <header>
+        <ul class="nav-buttons">
+            <li><button id="about"><img src="./assets/icons/sobre.svg" alt=""></button></li>
+            <li><button id="home"><img src="./assets/icons/home.svg" alt=""></button></li>
+            <li><button id="projects"><img src="./assets/icons/p.svg" alt=""></button></li>
+        </ul>
     </header>
-    <section>
-        <div class="skills">
-            <ul>
-                <li class="skills-itens" >
-                    <a href="https://github.com/ErickDutra?tab=repositories&q=&type=&language=python&sort=" target="_blank">
-                    <img src=".\assets\icons\python.svg" alt="icone-python">
-                    </a>
-                </li>
-                <li class="skills-itens">
-                    <a href="https://github.com/ErickDutra?tab=repositories&q=&type=&language=css&sort=" target="_blank">
-                    <img src=".\assets\icons\css.svg" alt="icone-css">
-                    </a>
-                </li>
-                <li class="skills-itens">
-                    <a href="https://github.com/ErickDutra?tab=repositories&q=&type=&language=html&sort=" target="_blank">
-                    <img src=".\assets\icons\html.svg" alt="icone-html">   
-                    </a>
-                </li>
-                <li class="skills-itens">
-                    <a href="https://github.com/ErickDutra/New_WebPortfoil" target="_blank">
-                    <img src=".\assets\icons\django.svg" alt="icone-django">
-                    </a>
-                </li>
-                <li class="skills-itens">
-                    <a href="https://github.com/ErickDutra?tab=repositories&q=&type=&language=javascript&sort=" target="_blank">
-                    <img src=".\assets\icons\js.svg" alt="icone-js">
-                    </a>
-                </li>
-                <li class="skills-itens">
-                    <a href="">
-                    <img src=".\assets\icons\mysql.svg" alt="icone-mysql" target="_blank">
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="information">
-            <div class="itens">
-                <div class="photo">
-                    <img src="./assets/img/me.svg" alt="i am future">
+    <main id="main-content">
+        <section id="about-section" style="display: none;">
+            <div class="about">
+                <div class="information">
+                    <div class="itens">
+                        <div class="photo">
+                            <img src="./assets/img/me.svg" alt="i am future">
+                        </div>
+                        <div class="name-sobre">
+                            <h2>Erick Dutra</h2>
+                            <div class="info-box">
+                                <ul>
+                                    <li>
+                                        <a href="mailto:deverickdutra@gmail.com" >
+                                            <img src=".\assets\icons\gmail.svg" alt="icone-gmail">
+                                            
+                                        </a>
+                                    </li>
+                                    <li> 
+                                        <a href="https://www.linkedin.com/in/erick-dutra-916217211/" target="_blank">
+                                            <img src=".\assets\icons\linkedin.svg" alt="icone-linkedin" >  
+                                            </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/ErickDutra" target="_blank">
+                                            <img src=".\assets\icons\github.svg" alt="icone-github">
+                                        </a> 
+                                    </li>
+                                </ul>
+                            </div>
+                        <div class="about-box">
+                            <p class="about-text">
+                            Olá, pessoal! Eu sou o Erick Dutra, estudante no curso Técnico em Análise e Desenvolvimento de Sistemas.
+                        </p>
+                        <br>
+                        <p class="about-text"> 
+                            Sou completamente apaixonado por desenvolvimento de software e automação de tarefas. Além disso, tenho um grande interesse na área de Inteligência Artificial, especialmente em machine learning. Estou sempre buscando me aprimorar a cada dia, passo a passo. Acredito que com paciência, perseverança e disciplina, conseguiremos alcançar todas as nossas metas.
+                        </p> 
+                        </div>
+            </div>
+        </section>
+        <section id="home-section" style="display: none;">
+            <div class="home">
+                <div class="home-container">
+                    <h2>Back-end Developer</h2>
+                    <h1>Olá, eu sou o Erick Dutra</h1>
+                    <img src="./assets/icons/mr._mime.gif" alt="">
                 </div>
-                <div class="name-sobre">
-                    <h2>Erick Dutra</h2>
-                    <div class="info-box">
-                        <ul>
-                            <li>
-                                <a href="mailto:deverickdutra@gmail.com" >
-                                    <img src=".\assets\icons\gmail.svg" alt="icone-gmail">
-                                    
-                                </a>
-                            </li>
-                            <li> 
-                                <a href="https://www.linkedin.com/in/erick-dutra-916217211/" target="_blank">
-                                    <img src=".\assets\icons\linkedin.svg" alt="icone-linkedin" >  
-                                    </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/ErickDutra" target="_blank">
-                                    <img src=".\assets\icons\github.svg" alt="icone-github">
-                                </a> 
-                            </li>
-                        </ul>
-                    </div>
-                <div class="about-box">
-                    <p class="about">
-                    Olá, pessoal! Eu sou o Erick Dutra, estudante no curso Técnico em Análise e Desenvolvimento de Sistemas.
-                </p>
-                <br>
-                <p class="about"> 
-                    Sou completamente apaixonado por desenvolvimento de software e automação de tarefas. Além disso, tenho um grande interesse na área de Inteligência Artificial, especialmente em machine learning. Estou sempre buscando me aprimorar a cada dia, passo a passo. Acredito que com paciência, perseverança e disciplina, conseguiremos alcançar todas as nossas metas.
-                </p> 
+                <div>
+                    <ul class="home-buttons">
+                        <li><button><p>Artigos</p></button></li>
+                        <li><button><p>Curriculo</p></button></li>
+                    </ul>
                 </div>
-                <div class="button-curriculum">
-                    <div class="position_button">
-                        
-                        <button >
-                            <div class="curriculum-dawnload">
-                                <a href="curriculum.pdf" download><p>>></p></a>
-                            </div>
-                            <div class="name-dawnload">
-                                <a href="curriculum.pdf" download><p>Baixar CV</p></a>
-                            </div>
-                            
-                            <div class="curriculum-dawnload">
-                                <a href="curriculum.pdf" download><p><<</p></a>
-                            </div>
-                        </button>
-                        <div>
-                            <button class="button-dialog" id="button-dialog">
-                                <a href="./pag2.html"><p>Projetos</p></a>
-                            </button>
+            </div>
+        </section>
+        <section id="projects-section" >
+            <div class="projects">
+                <div class="projects-container">
+                    <h1>Projetos</h1>
+                
+                    <div class="projects-box" id="projects-card">
+                        <div class="projects-box-item">
+                            <img class="img-stack" src="./assets/icons/js.svg" alt="">
+                            <h2>Nunca 10</h2>
+                            <p>Projeto de um jogo nunca 10, desafio de semestre.</p>
+                            <a href="#" class="btn-image" ><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=purple" alt=""></a>
                         </div>
                     </div>
-                </div>
+                </>
             </div>
-            </div>
-        </div>
-    </section>
-
-
+        </section>
+    </main>
+    <script src="./assets/js/carrosel.js"></script>
+    <script src="./assets/js/dados.js"></script>
 </body>
 <footer>
-    <script src="./assets/js/carrosel.js"></script>
+
 </footer>
 </html>

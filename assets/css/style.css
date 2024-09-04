@@ -1,210 +1,51 @@
-
 *{
     list-style: none;
     margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-}
-body{
-    background-color: #011F26;
-    background-size: cover;
-    width: 100%;
 }
 
 header{
     display: flex;
-    background-color: #025e73;
-    padding: 20px;
+    color: white;
+    padding: 0.5em;
+    width: 100%;
     justify-content: center;
-    box-shadow: 0px 5px 10px rgb(0, 0, 0);
-    
-}
-
-.title-name{
-    font-size: 5em;
-    letter-spacing: 3px;
-}
-
-.title-name{
-    font-size: 5em;
-    letter-spacing: 3px;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px #F2668B;
-    text-shadow: 
-        -1px -1px 0 #F2668B,  
-         1px -1px 0 #F2668B,
-        -1px  1px 0 #F2668B,
-         1px  1px 0 #F2668B;
-}
-
-
-section{
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
-
-.information{
-    background-color: #025E73;
-    margin: 30px auto;
-    box-shadow: 5px 5px 10px black;
-    padding: 10px;
-
+body{
+    background-color:#390D02;
 }
 
-.itens{
-    margin: 0 10rem;
-    font-size: 30px;
+.nav-buttons {
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    width: 90%;
+    justify-content: center;
     align-items: center;
-    gap: 10rem;
-}
-
-.photo img{
-    width:600px;
-    height: 600px;
-    border-radius: 50%;
-    object-fit: cover;
-    overflow: hidden;
-    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.486);
-}
-
-.name-sobre{
-   display: flex;
-   flex-direction: column;
-}
-
-.name-sobre h2{
-    font-size: 3em;
-    letter-spacing: 3px;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px #F2668B;
-    text-shadow: 
-        -1px -1px 0 #F2668B,  
-         1px -1px 0 #F2668B,
-        -1px  1px 0 #F2668B,
-         1px  1px 0 #F2668B;
-}
-.about-box{
-    margin-top: 1em;
-    border-radius: 10px;
-    background-color: #03A688;
-    padding: 1em;
-    box-shadow: 0px 3px 10px rgb(0, 0, 0);
-    width: 50%;
-}
-
-.about{
-    font-weight: bold;
-    font-size: 1em;
-    color: white;
-    text-indent: 2em;
-    text-align: justify;
-    text-shadow: 0px 5px 10px rgb(0, 0, 0);
-}
-
-.info-box{
-    color: white;
-    margin: 10px 0px;
-    margin-top: 2em;
-}
-.info-box ul{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-
-.info-box a {
-    text-decoration: none;
-    color: rgb(0, 77, 128);
-    display: flex;
-    margin: 10px;
-    align-items: center;
-}
-
-
-.info-box img:hover{
-    transform: scale(1.2);
-}
-
-.info-box span{
-    margin-left: 5px;
-    font-size: 1.5em;
-    margin-left: 0.5em;
-}
-
-.info-box img{
+    background-color:#000b0d;
+    padding: 0.9em 2em;
+    border-radius: 50px;
+    height: 0.3em;
     width: 2em;
+    top:2px;
+    position: absolute;
+    box-shadow: 2px 2px 10px black;
+}
+.nav-buttons li{
+    margin: 0 0.1em;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (max-width: 1320px){
-    .info-box h2{
-        margin-bottom: 25px;
-        font-size: 6rem;
-        text-shadow: 0px 5px 10px whitesmoke;
-    }
-    .about-box{
-        display: flex;
-        flex-direction: column;
-        padding: 1.5em;
-    }
-    .about{
-        font-size: 1em;
-        color: white;
-        text-indent: 2em;
-    }
-    .itens{
-        margin: 30px auto;
-        justify-content:space-around;
-        flex-wrap: wrap;
-        padding: 1.5em;
-    }
+.nav-buttons button{
+    border-radius: 50%;
+    background-color:#A52502;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px black;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (max-width: 768px){
-    .title-name{
-        font-size: 2em;
-    }
-    .photo img{
-        width: 250px;
-    }
-    .itens{
-        display: flex;
-        flex-direction: column;
-    }
-    .about-box{
-        display: flex;
-        flex-direction: column;
-        font-size: 0.5em;
-        padding: 1em;
-    }
-    .info-box span{
-        font-size: 1em;
-        margin-left: 0.3em;
-    }
-    .info-box h2{
-        font-size: 4rem;
-    }
-
-    .itens{
-        padding: 0.4em;
-    }
-}
-
-@media (max-width: 430px){
-    .info-box h2{
-        font-size: 3rem;
-    }
-    .about-box{
-        min-width: 90%;
-        font-size: 0.6em;
-        padding: 0.5em;
-    }
-    .title-name{
-        font-size: 2em;
-    }
+.nav-buttons button img{
+    width: 0.8em;
+    height: 1.1em;
 }

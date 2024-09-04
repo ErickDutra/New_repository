@@ -1,0 +1,48 @@
+.home{
+    background-color: #000B0D;
+    margin: 2rem 0rem;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 30px;
+}
+
+.home-container h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.home-container h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.home-buttons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+    margin-top: 3rem;
+}
+
+.home-buttons button{
+    background-color: #A52502;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 9rem;
+}
