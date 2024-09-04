@@ -21,7 +21,7 @@ async function updatePortfolio() {
     portfolio.innerHTML = profileData.itens
       .map((item) => {
         return `<div class="projects-box-item">
-                            <img class="img-stack" src="${item.imagem}" alt="">
+                            <img class="img-stack" src="./assets/icons/${item.imagem}.svg" alt="">
                             <h2>${item.title}</h2>
                             <p>${item.descricao}</p>
                             <a href="${item.url}" class="btn-image" ><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=purple" alt=""></a>
