@@ -12,7 +12,7 @@ header{
     align-items: center;
 }
 body{
-    background-color:#390D02;
+    background-color:#2d4e8d;
 }
 
 .nav-buttons {
@@ -37,7 +37,7 @@ body{
 
 .nav-buttons button{
     border-radius: 50%;
-    background-color:#A52502;
+    background-color:#878df2;
     border: none;
     cursor: pointer;
     box-shadow: 2px 2px 10px black;

@@ -1,5 +1,6 @@
 .home{
-    background-color: #000B0D;
+    background-image: url(../img/back.gif);
+    background-size: cover;
     margin: 2rem 0rem;
     height: 80vh;
     align-items: center;
@@ -36,7 +37,7 @@
 }
 
 .home-buttons button{
-    background-color: #A52502;
+    background-color: #878df2;
     color: white;
     padding: 1em 2em;
     border: none;
