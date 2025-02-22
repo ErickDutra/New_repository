@@ -4,35 +4,38 @@
     "linkedin": "linkedin",
     "email": "deverickdutra@gmail.com",
     "itens": [
-        {
-            "title": "Api agenda",
-            "url": "https://github.com/ErickDutra/api_agenda",
-            "imagem": "https://img.icons8.com/color/100/java-coffee-cup-logo--v1.png",
-            "descricao": "Projeto elaborado em Java utilizando Spring-boot."
-        },
-        {
-            "title": "Calculadora",
-            "url": "https://github.com/ErickDutra/calculadora_pyside",
-            "imagem": "https://img.icons8.com/fluency/100/python.png",
-            "descricao": "Projeto desenvolvido em Python, utilizando a biblioteca PySide."
-        },
-        {
-            "title": "Stock App",
-            "url": "https://github.com/ErickDutra/stock_app?tab=readme-ov-file",
-            "imagem": "https://img.icons8.com/fluency/100/flutter.png",
-            "descricao": "Projeto desenvolvido em Flutter e Dart para gerenciamento de estoque."
-        },
-        {
-            "title": "Spotfy Clone",
-            "url": "https://github.com/ErickDutra/spotfy_clone",
-            "imagem": "https://img.icons8.com/fluency/100/flutter.png",
-            "descricao": "Projeto clone desenvolvido em Flutter para pratica."
-        },
-        {
-            "title": "Pattern - Strategy",
-            "url": "https://github.com/ErickDutra/design_strategy",
-            "imagem": "https://img.icons8.com/color/100/java-coffee-cup-logo--v1.png",
-            "descricao": "Design pattern Strategy em Java."
-        }
+             {
+        "title": "Api agenda",
+        "url": "https://github.com/ErickDutra/api_agenda",
+        "imagem": <img width="100" height="100" src="https://img.icons8.com/color/100/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>,
+        "descricao": "Projeto elaborado em Java utilizando Spring-boot."
+      },
+      {
+        "title": " Calculadora",
+        "url": "https://github.com/ErickDutra/calculadora_pyside",
+        "imagem": <img width="100" height="100" src="https://img.icons8.com/fluency/100/python.png" alt="python"/>,
+        "descricao": "Projeto desenvolvido em Python, utilizando a biblioteca PySide."
+      },
+      {
+        "title": " Stock App",
+        "url": "https://github.com/ErickDutra/stock_app?tab=readme-ov-file",
+        "imagem": <img width="100" height="100" src="https://img.icons8.com/fluency/100/flutter.png" alt="flutter"/>,
+        "descricao": "Projeto desenvolvido em Flutter e Dart para gerenciamento de estoque."
+      },
+      {
+        "title": "Spotfy Clone",
+        "url": "https://github.com/ErickDutra/spotfy_clone",
+        "imagem": <img width="100" height="100" src="https://img.icons8.com/fluency/100/flutter.png" alt="flutter"/>,
+        "descricao": "Projeto clone desenvolvido em Flutter para pratica."
+      },
+      {
+        "title": "Pattern - Strategy",
+        "url": "https://github.com/ErickDutra/design_strategy",
+        "imagem": <img width="100" height="100" src="https://img.icons8.com/color/100/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>,
+        "descricao": "Design pattern Strategy em Java."
+      }
+    ]
+
+  }
     ]
 }
